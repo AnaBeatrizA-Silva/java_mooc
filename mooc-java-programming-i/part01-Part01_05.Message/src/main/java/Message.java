@@ -9,5 +9,8 @@ public class Message {
         System.out.println("Write a message:");
         // Write your program here
 
+        String msg = scanner.nextLine();
+
+        System.out.println(msg);
     }
 }
